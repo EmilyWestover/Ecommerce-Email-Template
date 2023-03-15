@@ -33,7 +33,36 @@
       }
 
       @media screen and (max-width: 599.98px) {
- 
+
+      .featuredproduct {
+         padding: 0;
+      }
+
+      .featuredproduct .fpimg {
+        width: 80%!important;
+        max-width: 80%!important;
+        padding: 2% 10% 0% 10%;
+      }
+      .featuredproduct .column {
+         width: 100%!important;
+         max-width: 100%!important;
+         padding-bottom: 10px;
+      }
+
+      .featuredproduct .content
+      {
+         text-align: center!important;
+      }
+
+      .featuredproduct .content p {
+         padding-bottom: 0.1px;
+         margin-top: 0;
+      }
+      
+      .featuredproduct .content h2 {
+         margin: 0;
+      }
+
       }
       @media screen and (max-width: 399.98px) {
        
@@ -193,7 +222,7 @@
    <td style="padding: 0px 0 10px 0;">
       <table width="100%" style="border-spacing: 0;" role="presentation">
          <tr>
-            <td class="two-third-columns" style="padding: 0;font-size: 0;text-align: center;background-color: #f7e4c9">
+            <td class="featuredproduct" style="padding: 0;font-size: 0;text-align: center;background-color: #f7e4c9">
 
                <!--[if (gte mso 9)|(IE)]>
                   <table width="100%" style="border-spacing: 0;" role="presentation">
@@ -201,14 +230,14 @@
                   <td width="48%" valign="top" style="padding: 0;">
                <![endif]-->
 
-               <table style="border-spacing: 0;vertical-align: top;width: 40%;max-width: 40%;display: inline-block;" role="presentation">
+               <table class="fpimg" style="border-spacing: 0;vertical-align: top;width: 40%;max-width: 40%;display: inline-block;" role="presentation">
                   <tr>
                      <td style="padding: 20px;background-color: #f7e4c9;">
 
                         <table class="content darkmode-transparent" style="border-spacing: 0;text-align: center;" role="presentation">
                            <tr>
                               <td>
-                                 <a href="https://example.com" target="_blank"><img class="one-third-col-img" src="./images/featuredproduct.jpg" alt="" width="100%" height="300px" style="max-width: 100%;" border="0"></a>
+                                 <a href="https://example.com" target="_blank"><img class="featuredproductimg" src="./images/featuredproduct.jpg" alt="" width="100%" height="300px" style="max-width: 100%;" border="0"></a>
                               </td>
                            </tr>
                         </table>
